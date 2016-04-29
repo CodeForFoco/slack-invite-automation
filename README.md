@@ -1,16 +1,26 @@
 Slack Invite Automation
 ------------
 
-A tiny web application to invite a user into your slack team.
+A tiny web application to invite a user into our slack team.
 
-Inspired by
-[How I hacked Slack into a community platform with Typeform](https://levels.io/slack-typeform-auto-invite-sign-ups/)
-and
-[Socket.io's slack page](http://socket.io/slack/).
+- Hosted @ [codeforfocoslack.herokuapp.com](https://codeforfocoslack.herokuapp.com/)
+- Our main website connects to this API.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## Contributing Guidelines
 
-## Setting
+We welcome new contributors. Not sure where to start? Check for any open [issues](https://github.com/CodeForFoco/codeforfoco.github.io/issues) or ping the team on our slack channel.
+
+A few things to keep in mind:
+
+- The `master` branch is production - develop on a separate branch.
+- Ensure your code follows best practices and adheres to good style.
+
+## Deploying
+
+Pushing to master auto deploys the application.
+
+## Configuration
+
 fill out `config.js` as your infomation.
 
 * `community`: your community or team name to display on join page.
@@ -30,7 +40,8 @@ fill out `config.js` as your infomation.
    --compressed
   ```
 
-## Run
+## Running
+
 [Node.js](http://nodejs.org/) is required.
 
 ```shell
@@ -41,5 +52,3 @@ $ bin/www
 ```
 
 You can access <http://localhost:3000> on your web browser.
-
-![](https://raw.github.com/outsideris/slack-invite-automation/master/screenshots/join-page.jpg)
